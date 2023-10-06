@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Mono:wght@700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@media (width > 1439px){
+  
+  body{
+    background: var(--Very-Light-blue, #ECF2FF);
+  }
+  .Parent{
+    display: flex;    
+    justify-content: center;  
+    align-items: center;   
+    flex-direction: row;
+    margin-left: 1%;
+    border-radius: 32px;
+    
+ }
+  
+
+
+
+.box{
+  border-radius: 32px;
+  width: 368px;
+  height: 480px;
+}
+
+
+h1{
+  color: white;
+  padding-bottom:10px ;
+}
+
+p{
+  padding-bottom:  55px;
+}
+
+.button{
+  width: 288px;
+  background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+}
+
+summary{
+color:  #303B59;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 24px;
+font-weight: 700;
+}
+
+.box2{
+  
+  background-color: white;
+  border-radius: 32px;
+  width: 368px;
+  height: 480px;
+
+}
+
+
+.flex-1{
+  width: 288px;
+}
+
+}
